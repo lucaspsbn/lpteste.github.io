@@ -1,0 +1,92 @@
+    
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    width: 100vw;
+    background-image: linear-gradient(to bottom,#a7ee95 0%, #38c016 25%, #620fa7 90%);
+    overflow: hidden;
+}
+
+.cabecalho{
+    padding: 2% 0 2% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.cabecalho__menu{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.cabecalho__menu__link{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.cabecalho__menu__link:hover{
+    
+    color: #15bde7;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.apresentacao{
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    margin-top: 0;
+    margin-left: 100px;
+    gap: 20px;
+    align-items: center;
+    
+}
+.apresentacao__texto1{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+    padding-top: 100px; 
+   padding-left: 200px;
+   width: 400px;
+    font-size: 36px;
+    text-align: Left;
+
+    
+}
+.button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: #1fc456;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 200px;
+   color: #620fa7;
+   font-weight: bold;
+}
+
+.container{
+width: 70%;
+height:70%;
+display:block;
+overflow: hidden;
+   
+}
+.logo{
+    width: 10%;
+    height: 10%;
+}
